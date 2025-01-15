@@ -39,6 +39,9 @@ let package = Package(
 				"celt/opus_custom_demo.c",
 				"celt/tests",
 				"celt/x86",
+				"dnn",
+				"lpcnet_headers.mk",
+				"lpcnet_sources.mk",
 				"ChangeLog",
 				"cmake",
 				"CMakeLists.txt",
@@ -80,8 +83,7 @@ let package = Package(
 				"src/repacketizer_demo.c",
 				"tests",
 				"training",
-				"update_version",
-				"win32",
+				"update_version"
 			],
 			publicHeadersPath: "include",
 			cSettings: [

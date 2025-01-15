@@ -1,3 +1,4 @@
 [submodule "Sources/Copus"]
 	path = Sources/Copus
 	url = https://github.com/xiph/opus.git
+	branch = main
